@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Volume")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb6d53e27e0895db47ecd87730495129f8cf7b4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Volume")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Volume")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

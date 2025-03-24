@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 
 
-[Route("api/[controller]")]
+[Route("[controller]")]
 [ApiController]
 public class ItemsController : ControllerBase
 {
@@ -15,15 +15,20 @@ public class ItemsController : ControllerBase
         _context = context;
     }
 
-    // GET: api/items
-    [HttpGet]
+/*************  ✨ Codeium Command ⭐  *************/
+/// <summary>
+/// Retrieves all items from the database.
+/// </summary>
+/// <returns>An asynchronous task that resolves to an ActionResult containing a list of items.</returns>
+
+/******  30595494-cd1e-4adf-9873-0db716201880  *******/
+    [HttpGet("Get")]
     public async Task<ActionResult<IEnumerable<Item>>> GetItems()
     {
         return await _context.Items.ToListAsync();
     }
 
-    // POST: api/items
-    [HttpPost]
+    [HttpPost("post")]
     public async Task<ActionResult<Item>> PostItem(Item item)
     {
         _context.Items.Add(item);

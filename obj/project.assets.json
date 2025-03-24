@@ -5510,11 +5510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vchanti\\OneDrive - Capgemini\\Desktop\\Volume\\Volume.csproj",
+      "projectUniqueName": "C:\\Users\\vchanti\\Downloads\\Volume\\Volume.csproj",
       "projectName": "Volume",
-      "projectPath": "C:\\Users\\vchanti\\OneDrive - Capgemini\\Desktop\\Volume\\Volume.csproj",
+      "projectPath": "C:\\Users\\vchanti\\Downloads\\Volume\\Volume.csproj",
       "packagesPath": "C:\\Users\\vchanti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vchanti\\OneDrive - Capgemini\\Desktop\\Volume\\obj\\",
+      "outputPath": "C:\\Users\\vchanti\\Downloads\\Volume\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vchanti\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5594,7 +5594,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
